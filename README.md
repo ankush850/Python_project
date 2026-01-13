@@ -53,6 +53,7 @@
 | **[pdf_to_text.py](pdf_to_text.py)** | 📄 Extract raw text from PDF documents. |
 | **[img_to _pdf.py](img_to%20_pdf.py)** | 🖼️➡️📄 Convert a sequence of images into a single PDF. |
 | **[UnZIP.py](UnZIP.py)** | 📦 Quick utility to extract compressed files. |
+| **[pdf.py](pdf.py)** | 📦 PDF merger and editor.. |
 | **[generate_qr.ipynb](generate_qr.ipynb)** | 📱 Generate custom QR codes (Jupyter Notebook). |
 
 ### 🎮 Games & Fun
