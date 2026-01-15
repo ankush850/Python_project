@@ -64,7 +64,7 @@
 | **[tic_tac_toe.py](tic_tac_toe.py)** | ❌⭕ Classic Tic Tac Toe strategy game. |
 | **[guessing_number.py](guessing_number.py)** | 🔢 Test your luck with this number guessing game. |
 | **[Random_Jokes.py](Random_Jokes.py)** | 😂 Get a random programming joke to brighten your day. |
-
+| **[ponggame.py](pongame.py)** | Two-player Pong game using Pygame.. |
 ---
 
 ## 🚀 Getting Started
@@ -77,8 +77,8 @@
 
 1.  **Clone the repository**
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/ankush850/Python_project-.git
+    cd Python_project
     ```
 
 2.  **Install dependencies**
