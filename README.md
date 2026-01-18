@@ -30,7 +30,7 @@
 | **[Recommender System](recommendation%20system/)** | 🎬 Content-based engine suggesting Movies (Netflix) & Games (Steam). | `Pandas` `Scikit-Learn` |
 | **[Auto Clicker](Auto_Clicker.py)** | 🖱️ GUI-based mouse automation tool with customizable hotkeys. | `Tkinter` `Pynput` |
 | **[YouTube Downloader](YouTube_Video_Downloader.py)** | 📹 Download high-quality videos directly from YouTube. | `Pytube` |
-
+| **[Road_Detection.py](Road_Detection.py)** | 🚗 Detects lanes in road images 🛣️ |
 ---
 
 ## 📂 Project Library
@@ -43,6 +43,7 @@
 | **[recommendation system/](recommendation%20system/)** | Suggests content based on similarity (TF-IDF, Cosine Similarity). |
 | **[face_rego.py](face_rego.py)** | Real-time face recognition implementation. |
 | **[chatbot.py](chatbot.py)** | A friendly rule-based conversational bot. |
+| **[Road_Detection.py](Road_Detection.py)** | 🚗 Detects lanes in road images 🛣️ |
 
 ### 🛠 Automation & Utilities
 
@@ -98,19 +99,7 @@ This collection relies on several powerful open-source libraries:
 *   **Computer Vision:** ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)
 *   **Web:** `Requests`, `BeautifulSoup4`, `Flask`
 
----
 
-## 🤝 Contributing
-
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
 
 <p align="center">
   <sub>Built with ❤️ using Python</sub>
