@@ -66,6 +66,7 @@
 | **[guessing_number.py](guessing_number.py)** | 🔢 Test your luck with this number guessing game. |
 | **[Random_Jokes.py](Random_Jokes.py)** | 😂 Get a random programming joke to brighten your day. |
 | **[ponggame.py](pongame.py)** | Two-player Pong game using Pygame.. |
+| **[Dice-Simulator.py](Dice-Simulator.py)** | Interactive console dice simulator|
 ---
 
 ## 🚀 Getting Started
