@@ -1,5 +1,4 @@
 import random
-import sys
 
 DICE_ART = {
     1: (
@@ -53,51 +52,46 @@ DICE_ART = {
 }
 
 
-def get_user_choice():
-    """Ask user whether to roll or exit."""
-    while True:
-        choice = input("\nRoll the dice? (y/n): ").strip().lower()
-        if choice in ("y", "n"):
-            return choice
-        print("Invalid input. Enter y or n only.")
-
-
-def roll_dice(count=2):
-    """Roll given number of dice."""
+def roll_dice(count):
     return [random.randint(1, 6) for _ in range(count)]
 
 
-def print_dice(dice_values):
-    """Print dice art side by side."""
-    dice_lines = [DICE_ART[value] for value in dice_values]
-
+def print_dice(values):
     for i in range(6):
-        for dice in dice_lines:
-            print(dice[i], end="  ")
+        for v in values:
+            print(DICE_ART[v][i], end="  ")
         print()
 
 
 def main():
-    print("🎲 DICE ROLLER SIMULATOR 🎲")
-    print("-" * 30)
-
     roll_count = 0
 
     while True:
-        choice = get_user_choice()
-        if choice == "n":
-            print("\nThanks for playing.")
-            print(f"Total rolls: {roll_count}")
-            sys.exit()
+        print("\n1. Roll dice")
+        print("2. Exit")
+        choice = input("Choose option: ").strip()
 
-        dice = roll_dice(2)
+        if choice == "2":
+            print("Total rolls:", roll_count)
+            break
+
+        if choice != "1":
+            print("Invalid choice.")
+            continue
+
+        dice_choice = input("Roll 1 dice or 2 dice? (1/2): ").strip()
+        if dice_choice not in ("1", "2"):
+            print("Enter only 1 or 2.")
+            continue
+
+        dice_count = int(dice_choice)
+        dice = roll_dice(dice_count)
         roll_count += 1
 
         print(f"\nRoll #{roll_count}")
-        print(f"Dice values: {dice[0]} and {dice[1]}")
+        print("Dice values:", *dice)
         print_dice(dice)
-
-        print(f"Total: {sum(dice)}")
+        print("Total:", sum(dice))
 
 
 if __name__ == "__main__":
