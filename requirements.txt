@@ -123,3 +123,4 @@ pyjwt
 gradio
 fastapi
 huggingface-hub
+PIL
