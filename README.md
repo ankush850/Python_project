@@ -7,21 +7,7 @@
 > **A diverse playground of Python scripts, automation tools, games, and AI projects.**
 > From simple utilities to advanced machine learning and computer vision applications.
 
----
 
-# 📑 Table of Contents
-
-* ✨ Highlights
-* 📂 Project Library
-
-  * 🤖 AI & Machine Learning
-  * 🛠 Automation & Utilities
-  * 🎮 Games & Fun
-* 🚀 Getting Started
-* 📦 Key Dependencies
-* 🤝 Contributing
-
----
 
 # ✨ Highlights
 
